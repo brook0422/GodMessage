@@ -1,0 +1,1 @@
+{"clientId":"360200119218971","phoneNum":"18838889999","idCardNum":"450326198806181956","name":"舅麟辉","credentialsType":"0","bankList":[{"cardno":"6222084000000991391"}]}

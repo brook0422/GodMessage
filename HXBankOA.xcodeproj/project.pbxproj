@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D85FBA51E5AB67E0008A9B3 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D85FBA41E5AB67E0008A9B3 /* libstdc++.6.0.9.dylib */; };
+		4D85FBA71E5AB68B0008A9B3 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D85FBA61E5AB68B0008A9B3 /* libc++.1.dylib */; };
+		6CC42F791E4AE41F006FE055 /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC42F781E4AE41F006FE055 /* ExCardSDK.framework */; };
+		6CC42F7F1E4AE494006FE055 /* libHXOpenAccount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC42F7E1E4AE494006FE055 /* libHXOpenAccount.a */; };
+		9A259C2D1E1BDB440099CBEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A259C2C1E1BDB440099CBEF /* main.m */; };
+		9A259C301E1BDB440099CBEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A259C2F1E1BDB440099CBEF /* AppDelegate.m */; };
+		9A259C331E1BDB440099CBEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A259C321E1BDB440099CBEF /* ViewController.m */; };
+		9A259C361E1BDB440099CBEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A259C341E1BDB440099CBEF /* Main.storyboard */; };
+		9A259C381E1BDB440099CBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A259C371E1BDB440099CBEF /* Assets.xcassets */; };
+		9A259C3B1E1BDB440099CBEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A259C391E1BDB440099CBEF /* LaunchScreen.storyboard */; };
+		D1004A231E7A25EE0040EC1B /* SuperNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1004A221E7A25EE0040EC1B /* SuperNavVC.m */; };
+		D1004A451E7A33E70040EC1B /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1004A3F1E7A33E70040EC1B /* back@2x.png */; };
+		D1004A461E7A33E70040EC1B /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1004A401E7A33E70040EC1B /* back@3x.png */; };
+		D1004A471E7A33E70040EC1B /* ExCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1004A411E7A33E70040EC1B /* ExCardRes.bundle */; };
+		D1004A481E7A33E70040EC1B /* hangUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1004A421E7A33E70040EC1B /* hangUp@2x.png */; };
+		D1004A491E7A33E70040EC1B /* hangUp@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1004A431E7A33E70040EC1B /* hangUp@3x.png */; };
+		D1004A4A1E7A33E70040EC1B /* HXUserInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = D1004A441E7A33E70040EC1B /* HXUserInfo.txt */; };
+		D1004A4C1E7A34850040EC1B /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1004A4B1E7A34850040EC1B /* ExCardSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D85FBA41E5AB67E0008A9B3 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		4D85FBA61E5AB68B0008A9B3 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		6CC42F781E4AE41F006FE055 /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExCardSDK.framework; path = HXOpenAccount/sdk/scanId/framework/ExCardSDK.framework; sourceTree = "<group>"; };
+		6CC42F7E1E4AE494006FE055 /* libHXOpenAccount.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHXOpenAccount.a; path = "../Library/Developer/Xcode/DerivedData/HXBankSpace-hdxokuqmnulytnhjiwnndkobaakz/Build/Products/Debug-iphonesimulator/libHXOpenAccount.a"; sourceTree = "<group>"; };
+		9A259C281E1BDB440099CBEF /* HXBankOA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXBankOA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A259C2C1E1BDB440099CBEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A259C2E1E1BDB440099CBEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A259C2F1E1BDB440099CBEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A259C311E1BDB440099CBEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A259C321E1BDB440099CBEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A259C351E1BDB440099CBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A259C371E1BDB440099CBEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A259C3A1E1BDB440099CBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A259C3C1E1BDB440099CBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1004A211E7A25EE0040EC1B /* SuperNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperNavVC.h; sourceTree = "<group>"; };
+		D1004A221E7A25EE0040EC1B /* SuperNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperNavVC.m; sourceTree = "<group>"; };
+		D1004A3F1E7A33E70040EC1B /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		D1004A401E7A33E70040EC1B /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		D1004A411E7A33E70040EC1B /* ExCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExCardRes.bundle; sourceTree = "<group>"; };
+		D1004A421E7A33E70040EC1B /* hangUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangUp@2x.png"; sourceTree = "<group>"; };
+		D1004A431E7A33E70040EC1B /* hangUp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangUp@3x.png"; sourceTree = "<group>"; };
+		D1004A441E7A33E70040EC1B /* HXUserInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HXUserInfo.txt; sourceTree = "<group>"; };
+		D1004A4B1E7A34850040EC1B /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExCardSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A259C251E1BDB440099CBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D85FBA71E5AB68B0008A9B3 /* libc++.1.dylib in Frameworks */,
+				D1004A4C1E7A34850040EC1B /* ExCardSDK.framework in Frameworks */,
+				4D85FBA51E5AB67E0008A9B3 /* libstdc++.6.0.9.dylib in Frameworks */,
+				6CC42F7F1E4AE494006FE055 /* libHXOpenAccount.a in Frameworks */,
+				6CC42F791E4AE41F006FE055 /* ExCardSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A259C1F1E1BDB440099CBEF = {
+			isa = PBXGroup;
+			children = (
+				9A259C2A1E1BDB440099CBEF /* HXBankOA */,
+				9ADB7F1B1E1BDF950090B5A1 /* Frameworks */,
+				9A259C291E1BDB440099CBEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A259C291E1BDB440099CBEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A259C281E1BDB440099CBEF /* HXBankOA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A259C2A1E1BDB440099CBEF /* HXBankOA */ = {
+			isa = PBXGroup;
+			children = (
+				9A259C2E1E1BDB440099CBEF /* AppDelegate.h */,
+				9A259C2F1E1BDB440099CBEF /* AppDelegate.m */,
+				D1004A211E7A25EE0040EC1B /* SuperNavVC.h */,
+				D1004A221E7A25EE0040EC1B /* SuperNavVC.m */,
+				9A259C311E1BDB440099CBEF /* ViewController.h */,
+				9A259C321E1BDB440099CBEF /* ViewController.m */,
+				D1004A3E1E7A33E70040EC1B /* HXResourcesFile */,
+				9A259C341E1BDB440099CBEF /* Main.storyboard */,
+				9A259C371E1BDB440099CBEF /* Assets.xcassets */,
+				9A259C391E1BDB440099CBEF /* LaunchScreen.storyboard */,
+				9A259C3C1E1BDB440099CBEF /* Info.plist */,
+				9A259C2B1E1BDB440099CBEF /* Supporting Files */,
+			);
+			path = HXBankOA;
+			sourceTree = "<group>";
+		};
+		9A259C2B1E1BDB440099CBEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A259C2C1E1BDB440099CBEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9ADB7F1B1E1BDF950090B5A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D85FBA61E5AB68B0008A9B3 /* libc++.1.dylib */,
+				4D85FBA41E5AB67E0008A9B3 /* libstdc++.6.0.9.dylib */,
+				6CC42F7E1E4AE494006FE055 /* libHXOpenAccount.a */,
+				6CC42F781E4AE41F006FE055 /* ExCardSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1004A3E1E7A33E70040EC1B /* HXResourcesFile */ = {
+			isa = PBXGroup;
+			children = (
+				D1004A4B1E7A34850040EC1B /* ExCardSDK.framework */,
+				D1004A3F1E7A33E70040EC1B /* back@2x.png */,
+				D1004A401E7A33E70040EC1B /* back@3x.png */,
+				D1004A411E7A33E70040EC1B /* ExCardRes.bundle */,
+				D1004A421E7A33E70040EC1B /* hangUp@2x.png */,
+				D1004A431E7A33E70040EC1B /* hangUp@3x.png */,
+				D1004A441E7A33E70040EC1B /* HXUserInfo.txt */,
+			);
+			path = HXResourcesFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A259C271E1BDB440099CBEF /* HXBankOA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A259C551E1BDB440099CBEF /* Build configuration list for PBXNativeTarget "HXBankOA" */;
+			buildPhases = (
+				9A259C241E1BDB440099CBEF /* Sources */,
+				9A259C251E1BDB440099CBEF /* Frameworks */,
+				9A259C261E1BDB440099CBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXBankOA;
+			productName = HXBankOA;
+			productReference = 9A259C281E1BDB440099CBEF /* HXBankOA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A259C201E1BDB440099CBEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = chliu.brook;
+				TargetAttributes = {
+					9A259C271E1BDB440099CBEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KJTY8FB87G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A259C231E1BDB440099CBEF /* Build configuration list for PBXProject "HXBankOA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A259C1F1E1BDB440099CBEF;
+			productRefGroup = 9A259C291E1BDB440099CBEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A259C271E1BDB440099CBEF /* HXBankOA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A259C261E1BDB440099CBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1004A461E7A33E70040EC1B /* back@3x.png in Resources */,
+				9A259C3B1E1BDB440099CBEF /* LaunchScreen.storyboard in Resources */,
+				D1004A451E7A33E70040EC1B /* back@2x.png in Resources */,
+				9A259C381E1BDB440099CBEF /* Assets.xcassets in Resources */,
+				D1004A4A1E7A33E70040EC1B /* HXUserInfo.txt in Resources */,
+				9A259C361E1BDB440099CBEF /* Main.storyboard in Resources */,
+				D1004A471E7A33E70040EC1B /* ExCardRes.bundle in Resources */,
+				D1004A491E7A33E70040EC1B /* hangUp@3x.png in Resources */,
+				D1004A481E7A33E70040EC1B /* hangUp@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A259C241E1BDB440099CBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1004A231E7A25EE0040EC1B /* SuperNavVC.m in Sources */,
+				9A259C331E1BDB440099CBEF /* ViewController.m in Sources */,
+				9A259C301E1BDB440099CBEF /* AppDelegate.m in Sources */,
+				9A259C2D1E1BDB440099CBEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A259C341E1BDB440099CBEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A259C351E1BDB440099CBEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A259C391E1BDB440099CBEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A259C3A1E1BDB440099CBEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A259C531E1BDB440099CBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		9A259C541E1BDB440099CBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		9A259C561E1BDB440099CBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KJTY8FB87G;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/HXOpenAccount",
+					"$(PROJECT_DIR)/HXOpenAccount/sdk/scanId/framework",
+					"$(PROJECT_DIR)/HXBankOA/HXResourcesFile",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HXBankOA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shhxzq.securityBank.I;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) ./HXOpenAccount ./HXOpenAccount/sdk/scanId/framework ./HXOpenAccount/sdk/video/include";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		9A259C571E1BDB440099CBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KJTY8FB87G;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/HXOpenAccount",
+					"$(PROJECT_DIR)/HXOpenAccount/sdk/scanId/framework",
+					"$(PROJECT_DIR)/HXBankOA/HXResourcesFile",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HXBankOA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shhxzq.securityBank.I;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) ./HXOpenAccount ./HXOpenAccount/sdk/scanId/framework ./HXOpenAccount/sdk/video/include";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A259C231E1BDB440099CBEF /* Build configuration list for PBXProject "HXBankOA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A259C531E1BDB440099CBEF /* Debug */,
+				9A259C541E1BDB440099CBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A259C551E1BDB440099CBEF /* Build configuration list for PBXNativeTarget "HXBankOA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A259C561E1BDB440099CBEF /* Debug */,
+				9A259C571E1BDB440099CBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A259C201E1BDB440099CBEF /* Project object */;
+}
